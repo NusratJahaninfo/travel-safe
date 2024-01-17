@@ -1,0 +1,256 @@
+.container {
+    border-radius: 16px;
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 600px;
+}
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.red {
+    color: red;
+}
+.green {
+    color: red;
+}
+ .nav-item li a {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.nav-item li {
+    list-style: none;
+    padding: 0px 20px;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.logo img {
+
+    padding: 20px;
+}
+.no-n {
+    display: flex;
+    justify-content: space-around;
+}
+.abc {
+    width: 70%;
+    height: 450px;
+    background-color: blue;
+    background-image: url(header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+padding-top: 100px;
+}
+.header {
+    margin-top: 5px;
+}
+.title {
+    text-align: center;
+}
+.explore {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;  
+}
+.all {
+    border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+display: flex;
+justify-content: space-around;
+gap: 10px;
+flex-wrap: wrap;
+align-items: center;
+padding: 15px;
+}
+.when {
+
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+width: 100px;
+height: 30px;
+border: none;
+border-radius: 8px;
+}
+input {
+    gap: 10px;
+    padding: 10px 20px;
+
+}
+.btn {
+    border-radius: 8px;
+background-color: #FF5400;
+width: 100px;
+height: 40px;
+}
+.border { 
+   border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+}
+.explore {
+    color: #FFF;
+font-family: Mulish;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+/* header section done */
+/* popular tour design starts here */
+.now {
+    border-radius: 8px;
+background: #FF5400;
+height: 40PX;
+width: 90PX;
+}
+.section-1 {
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 200px;
+    
+}
+.populour {
+    
+
+}
+.pic-1 img {
+    width: 350px;
+height: 350px;
+ }
+
+ /* populour tour ends here */
+ /* choose design starts here */
+.first-div {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.choose {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+.UP {
+    margin-bottom: -70px;
+}
+.card1 {
+    background-color: pink;
+    width: 400px;
+height: 200px;
+padding: 10px;
+border-radius: 10px;
+
+}
+.card2 {
+    background-color: skyblue;
+    width: 400px;
+height: 200px;
+padding: 10px;
+border-radius: 10px; 
+}
+.card3 {
+    background-color: paleturquoise;
+    width: 400px;
+height: 200px;
+padding: 10px;
+border-radius: 10px;   
+}
+.BIG {
+    font-size: 30PX;
+}
+/* Choose design ends here */
+/* Perfecr place design starts here */
+
+.THEN {
+    border-radius: 8px;
+background: #FF5400;
+height: 40PX;
+width: 90PX; 
+}
+.PERFECT {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.VDEO img {
+    height: 250px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+ /* footer design starts here */
+ bg-img {
+    background-color: antiquewhite;
+    width:500px ;
+    height: 560px;
+ }
+ .footer {
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+ }
+ .bg-img {
+    font-size: 32px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .icon {
+    margin: 32px auto;
+ }
+ .hr {
+    border: 1px solid black;
+    margin-bottom: 40px;
+    max-width: 50%;
+ }
+ .copy ul  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+
+ }
+ .orng {
+    color: #FF5400;
+ }
+ .copy ul i {
+    font-size: 30px;
+
+ }
+ /* footer design ends here */
+
